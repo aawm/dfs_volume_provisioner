@@ -22,4 +22,5 @@ spec:
         - "/usr/local/bin/cephfs-provisioner"
         args:
         - "-id=cephfs-provisioner-1"
+        - "-disable-ceph-namespace-isolation=true"
       serviceAccount: cephfs-provisioner
